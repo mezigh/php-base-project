@@ -1,0 +1,26 @@
+{
+    "name": "dev-media/PHP Design Pattern",
+    "description": "Design Pattern",
+    "authors": [
+        {
+            "name": "mezigh",
+            "email": "mezigh@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.3",
+        "pimple/pimple": "~2.1",
+        "monolog/monolog": "~1.6",
+        "nesbot/carbon": "~1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+	"psr-0": {
+		"DevMediaLab": "app/"
+	}
+    },
+    "minimum-stability": "dev"
+}
